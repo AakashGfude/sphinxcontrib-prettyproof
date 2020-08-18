@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Documentation &#8212; sphinxcontrib-prettyproof  documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/proof.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="sphinxcontrib-prettyproof" href="index.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">sphinxcontrib-prettyproof  documentation</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Documentation
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/usage.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/najuzilu/sphinxcontrib-prettyproof"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/najuzilu/sphinxcontrib-prettyproof/issues/new?title=Issue%20on%20page%20%2Fusage.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/najuzilu/sphinxcontrib-prettyproof/edit/master/docs/usage.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> On this page
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples">
+   Examples
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#source">
+   Source
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contribute">
+   Contribute
+  </a>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="documentation">
+<h1>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}\]</div>
+<div class="proof theorem admonition" id="opt">
+<div class="theorem-title proof-title"><span class="caption-number">Theorem 1  (Orthogonal-Projection-Theorem)</span></div><div class="theorem-content section" id="proof-content">
+<p>Given <span class="math notranslate nohighlight">\(y \in \mathbb R^n\)</span> and linear subspace <span class="math notranslate nohighlight">\(S \subset \mathbb R^n\)</span>,
+there exists a unique solution to the minimization problem</p>
+<div class="math notranslate nohighlight">
+\[\hat y := \argmin_{z \in S} \|y - z\|\]</div>
+<p>The minimizer <span class="math notranslate nohighlight">\(\hat y\)</span> is the unique vector in <span class="math notranslate nohighlight">\(\mathbb R^n\)</span> that satisfies</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\hat y \in S\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(y - \hat y \perp S\)</span></p></li>
+</ul>
+<p>The vector <span class="math notranslate nohighlight">\(\hat y\)</span> is called the <strong>orthogonal projection</strong> of <span class="math notranslate nohighlight">\(y\)</span> onto <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</div>
+</div><p><em>Source:</em> <a class="reference external" href="https://python-advanced.quantecon.org/orth_proj.html#The-Orthogonal-Projection-Theorem">QuantEcon</a></p>
+<p><a class="reference internal" href="#opt">Theorem 1</a> or <a class="reference internal" href="#opt">Orthogonal-Projection-Theorem</a> can be referenced through the <code class="docutils literal notranslate"><span class="pre">:label:</span></code> option.</p>
+<div class="proof admonition" id="proof">
+<em><p>Proof. We’ll omit the full proof.</p>
+<p>But we will prove sufficiency of the asserted conditions.</p>
+<p>To this end, let <span class="math notranslate nohighlight">\(y \in \mathbb R^n\)</span> and let <span class="math notranslate nohighlight">\(S\)</span> be a linear subspace of <span class="math notranslate nohighlight">\(\mathbb R^n\)</span>.</p>
+<p>Let <span class="math notranslate nohighlight">\(\hat y\)</span> be a vector in <span class="math notranslate nohighlight">\(\mathbb R^n\)</span> such that <span class="math notranslate nohighlight">\(\hat y \in S\)</span> and <span class="math notranslate nohighlight">\(y - \hat y \perp S\)</span>.</p>
+<p>Let <span class="math notranslate nohighlight">\(z\)</span> be any other point in <span class="math notranslate nohighlight">\(S\)</span> and use the fact that <span class="math notranslate nohighlight">\(S\)</span> is a linear subspace to deduce</p>
+<div class="math notranslate nohighlight">
+\[\| y - z \|^2
+= \| (y - \hat y) + (\hat y - z) \|^2
+= \| y - \hat y \|^2  + \| \hat y - z  \|^2\]</div>
+<p>Hence <span class="math notranslate nohighlight">\(\| y - z \| \geq \| y - \hat y \|\)</span>, which completes the proof.</p>
+</em></div>
+<p><em>Source:</em> <a class="reference external" href="https://python-advanced.quantecon.org/orth_proj.html#The-Orthogonal-Projection-Theorem">QuantEcon</a></p>
+<div class="proof axiom admonition" id="axiom-1">
+<div class="axiom-title proof-title"><span class="caption-number">Axiom 2 </span></div><div class="axiom-content section" id="proof-content">
+</div>
+</div><p><em>Source:</em></p>
+<div class="proof lemma admonition" id="lemma-2">
+<div class="lemma-title proof-title"><span class="caption-number">Lemma 3 </span></div><div class="lemma-content section" id="proof-content">
+<p>If <span class="math notranslate nohighlight">\(\hat P\)</span> is the fixed point of the map <span class="math notranslate nohighlight">\(\mathcal B \circ \mathcal D\)</span> and <span class="math notranslate nohighlight">\(\hat F\)</span> is the robust policy as given in <a class="reference external" href="https://python-advanced.quantecon.org/robustness.html#equation-rb-oc-ih">(7)</a>, then</p>
+<div class="math notranslate nohighlight" id="equation-rb-kft">
+<span class="eqno">(1)<a class="headerlink" href="#equation-rb-kft" title="Permalink to this equation">¶</a></span>\[K(\hat F, \theta) = (\theta I - C'\hat P C)^{-1} C' \hat P  (A - B \hat F)\]</div>
+</div>
+</div><p><em>Source:</em> <a class="reference external" href="https://python-advanced.quantecon.org/robustness.html#Appendix">QuantEcon</a></p>
+<div class="proof definition admonition" id="definition-3">
+<div class="definition-title proof-title"><span class="caption-number">Definition 4 </span></div><div class="definition-content section" id="proof-content">
+<p>The <em>economical expansion problem</em> (EEP) for
+<span class="math notranslate nohighlight">\((A,B)\)</span> is to find a semi-positive <span class="math notranslate nohighlight">\(n\)</span>-vector <span class="math notranslate nohighlight">\(p&gt;0\)</span>
+and a number <span class="math notranslate nohighlight">\(\beta\in\mathbb{R}\)</span>, such that</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+&amp;\min_{\beta} \hspace{2mm} \beta \\
+&amp;\text{s.t. }\hspace{2mm}Bp \leq \beta Ap
+\end{split}\]</div>
+</div>
+</div><p><em>Source:</em> <a class="reference external" href="https://python-advanced.quantecon.org/von_neumann_model.html#Duality">QuantEcon</a></p>
+<div class="proof criteria admonition" id="criteria-4">
+<div class="criteria-title proof-title"><span class="caption-number">Criteria 5 </span></div><div class="criteria-content section" id="proof-content">
+</div>
+</div><p><em>Source:</em></p>
+<div class="proof remark admonition" id="remark-5">
+<div class="remark-title proof-title"><span class="caption-number">Remark 6 </span></div><div class="remark-content section" id="proof-content">
+<p>More generally there is a class of density functions
+that possesses this feature, i.e.</p>
+<div class="math notranslate nohighlight">
+\[
+\exists g: \mathbb{R}_+ \mapsto \mathbb{R}_+ \ \ \text{ and } \ \ c \geq 0,
+\ \ \text{s.t.  the density } \ \ f \ \ \text{of} \ \ Z  \ \
+\text{ has the form } \quad f(z) = c g(z\cdot z)
+\]</div>
+<p>This property is called <strong>spherical symmetry</strong> (see p 81. in Leamer
+(1978))</p>
+</div>
+</div><p><em>Source:</em> <a class="reference external" href="https://python-advanced.quantecon.org/black_litterman.html">QuantEcon</a></p>
+<div class="proof conjecture admonition" id="conjecture-6">
+<div class="conjecture-title proof-title"><span class="caption-number">Conjecture 7 </span></div><div class="conjecture-content section" id="proof-content">
+</div>
+</div><p><em>Source:</em></p>
+<div class="proof corollary admonition" id="corollary-7">
+<div class="corollary-title proof-title"><span class="caption-number">Corollary 8 </span></div><div class="corollary-content section" id="proof-content">
+</div>
+</div><p><em>Source:</em></p>
+<div class="proof algorithm admonition" id="algorithm-8">
+<div class="algorithm-title proof-title"><span class="caption-number">Algorithm 9  (Ford–Fulkerson)</span></div><div class="algorithm-content section" id="proof-content">
+<p><strong>Inputs</strong> Given a Network <span class="math notranslate nohighlight">\(G=(V,E)\)</span> with flow capacity <span class="math notranslate nohighlight">\(c\)</span>, a source node <span class="math notranslate nohighlight">\(s\)</span>, and a sink node <span class="math notranslate nohighlight">\(t\)</span></p>
+<p><strong>Output</strong> Compute a flow <span class="math notranslate nohighlight">\(f\)</span> from <span class="math notranslate nohighlight">\(s\)</span> to <span class="math notranslate nohighlight">\(t\)</span> of maximum value</p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(u, v) \leftarrow 0\)</span> for all edges <span class="math notranslate nohighlight">\((u,v)\)</span></p></li>
+<li><p>While there is a path <span class="math notranslate nohighlight">\(p\)</span> from <span class="math notranslate nohighlight">\(s\)</span> to <span class="math notranslate nohighlight">\(t\)</span> in <span class="math notranslate nohighlight">\(G_{f}\)</span> such that <span class="math notranslate nohighlight">\(c_{f}(u,v)&gt;0\)</span> for all edges <span class="math notranslate nohighlight">\((u,v) \in p\)</span>:</p>
+<ol class="simple">
+<li><p>Find <span class="math notranslate nohighlight">\(c_{f}(p)= \min \{c_{f}(u,v):(u,v)\in p\}\)</span></p></li>
+<li><p>For each edge <span class="math notranslate nohighlight">\((u,v) \in p\)</span></p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(u,v) \leftarrow f(u,v) + c_{f}(p)\)</span> <em>(Send flow along the path)</em></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(u,v) \leftarrow f(u,v) - c_{f}(p)\)</span> <em>(The flow might be “returned” later)</em></p></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div><p><em>Source:</em> <a class="reference external" href="https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm">Wikipedia</a>.</p>
+<div class="proof exercise admonition" id="exercise-9">
+<div class="exercise-title proof-title"><span class="caption-number">Exercise 10 </span></div><div class="exercise-content section" id="proof-content">
+</div>
+</div></div>
+<div class="section" id="source">
+<h2>Source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="contribute">
+<h2>Contribute<a class="headerlink" href="#contribute" title="Permalink to this headline">¶</a></h2>
+<!-- `sphinxcontrib-prettyproof` is an open project and we welcome your feedback and contributions! To contribute to `sphinxcontrib-prettyproof`, see [Contribute to `sphinxcontrib-prettyproof`](). -->
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">sphinxcontrib-prettyproof</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By QuantEcon Developers<br/>
+        
+            &copy; Copyright 2020, QuantEcon Developers.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

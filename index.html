@@ -5,29 +5,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>sphinxcontrib-pretty-proof &#8212; sphinxcontrib-pretty-proof  documentation</title>
+    <title>sphinxcontrib-prettyproof &#8212; sphinxcontrib-prettyproof  documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/proof.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/language_data.js"></script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Documentation" href="usage.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -47,7 +41,7 @@
 <a class="navbar-brand text-wrap" href="#">
   
   
-  <h1 class="site-logo" id="site-title">sphinxcontrib-pretty-proof  documentation</h1>
+  <h1 class="site-logo" id="site-title">sphinxcontrib-prettyproof  documentation</h1>
   
 </a>
 </div>
@@ -58,7 +52,14 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="usage.html">
+   Documentation
+  </a>
+ </li>
+</ul>
+
 </nav>
 
  <!-- To handle the deprecated key -->
@@ -115,14 +116,14 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/najuzilu/sphinxcontrib-pretty-proof"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/najuzilu/sphinxcontrib-prettyproof"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/najuzilu/sphinxcontrib-pretty-proof/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/najuzilu/sphinxcontrib-prettyproof/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/najuzilu/sphinxcontrib-pretty-proof/edit/master/docs/index.md"><button
+        <a class="edit-button" href="https://github.com/najuzilu/sphinxcontrib-prettyproof/edit/master/docs/index.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -155,11 +156,6 @@
    Installation
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#test">
-   Test
-  </a>
- </li>
 </ul>
 
         </nav>
@@ -170,20 +166,28 @@
         
               <div>
                 
-  <div class="section" id="sphinxcontrib-pretty-proof">
-<h1>sphinxcontrib-pretty-proof<a class="headerlink" href="#sphinxcontrib-pretty-proof" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://sphinxcontrib-pretty-proof.readthedocs.io/en/latest/?badge=latest"><img alt="Documentation Status" src="https://readthedocs.org/projects/sphinxcontrib-pretty-proof/badge/?version=latest" /></a></p>
+  <div class="section" id="sphinxcontrib-prettyproof">
+<h1>sphinxcontrib-prettyproof<a class="headerlink" href="#sphinxcontrib-prettyproof" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://sphinxcontrib-prettyproof.readthedocs.io/en/latest/?badge=latest"><img alt="Documentation Status" src="https://readthedocs.org/projects/sphinxcontrib-prettyproof/badge/?version=latest" /></a></p>
 <p><strong>A proof extension for Sphinx</strong>.</p>
 <p>This package contains a <a class="reference external" href="http://www.sphinx-doc.org/en/master/">Sphinx</a> extension
 for producing proof, theorem, axiom, lemma, definition, criteria, remark, conjecture, corollary, algorithm and exercise directives.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>sphinxcontrib-pretty-proof <code class="docutils literal notranslate"><span class="pre">0.1.0a</span></code> is in a development stage and may change rapidly.</p>
+<p>sphinxcontrib-prettyproof <code class="docutils literal notranslate"><span class="pre">0.0.1a</span></code> is in a development stage and may change rapidly.</p>
+</div>
+<p><strong>Features</strong>:</p>
+<ol class="simple">
+<li><p>directives are automatically numbered</p></li>
+<li><p>supports directive options such as <code class="docutils literal notranslate"><span class="pre">class</span></code>, <code class="docutils literal notranslate"><span class="pre">label</span></code>, and <code class="docutils literal notranslate"><span class="pre">nonumber</span></code></p></li>
+<li><p>can easily be referenced through <code class="docutils literal notranslate"><span class="pre">proof:ref</span></code> and <code class="docutils literal notranslate"><span class="pre">proof:numref</span></code> roles</p></li>
+</ol>
+<div class="toctree-wrapper compound">
 </div>
 <div class="section" id="get-started">
 <h2>Get started<a class="headerlink" href="#get-started" title="Permalink to this headline">¶</a></h2>
-<p>To get started with <code class="docutils literal notranslate"><span class="pre">sphinxcontrib-pretty-proof</span></code>, first install it through <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinxcontrib</span><span class="o">-</span><span class="n">pretty</span><span class="o">-</span><span class="n">proof</span>
+<p>To get started with <code class="docutils literal notranslate"><span class="pre">sphinxcontrib-prettyproof</span></code>, first install it through <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sphinxcontrib-prettyproof
 </pre></div>
 </div>
 <p>then, add <code class="docutils literal notranslate"><span class="pre">sphinxcontrib.pretty_proof</span></code> to your sphinx <code class="docutils literal notranslate"><span class="pre">extensions</span></code> in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code></p>
@@ -196,54 +200,11 @@ for producing proof, theorem, axiom, lemma, definition, criteria, remark, conjec
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p><strong>Step 1:</strong> To install the extension you need to clone the repository then run:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python setup.py install
 </pre></div>
 </div>
 <p><strong>Step 2:</strong> Add <code class="docutils literal notranslate"><span class="pre">sphinxcontrib.pretty_proof</span></code> to your sphinx <code class="docutils literal notranslate"><span class="pre">extensions</span></code> in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code></p>
 <p><strong>Step 3:</strong> Build using <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code></p>
-</div>
-<div class="section" id="test">
-<h2>Test<a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h2>
-<div class="proof admonition" id="proof">
-<em><p>Proof. This is a
-proof directive.</p>
-</em></div>
-<div class="theorem admonition" id="proof">
-<p class="theorem-title proof-title">Theorem 1  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="axiom admonition" id="proof">
-<p class="axiom-title proof-title">Axiom 2  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="lemma admonition" id="proof">
-<p class="lemma-title proof-title">Lemma 3  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="definition admonition" id="proof">
-<p class="definition-title proof-title">Definition 4  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="corollary admonition" id="proof">
-<p class="corollary-title proof-title">Corollary 5  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="conjecture admonition" id="proof">
-<p class="conjecture-title proof-title">Conjecture 6  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="algorithm admonition" id="proof">
-<p class="algorithm-title proof-title">Algorithm 7  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="criteria admonition" id="proof">
-<p class="criteria-title proof-title">Criteria 8  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
-<div class="exercise admonition" id="proof">
-<p class="exercise-title proof-title">Exercise 9  (Title)</p>
-<p>This is a theorem directive.</p>
-</div>
 </div>
 </div>
 
@@ -256,6 +217,7 @@ proof directive.</p>
     
     <div class='prev-next-bottom'>
         
+    <a class='right-next' id="next-link" href="usage.html" title="next page">Documentation</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
